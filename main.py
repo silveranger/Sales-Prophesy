@@ -8,20 +8,20 @@ import streamlit.components.v1 as components
 
 
 st.set_page_config(
-    page_title="SalesProphecy",
+    page_title="SalesProphesy",
     page_icon="📈",
     layout="wide",
     initial_sidebar_state="expanded",
     menu_items={
         'Get Help': 'https://www.google.co.in/',
         'Report a bug': "https://www.google.co.in/",
-        'About': "# Sales Prophecy \n This is a sales prediction app!\nIt combines powerful models to provide an accurate forecast.\nThe dataset must have 2 columns date and sales."
+        'About': "# Sales Prophesy \n This is a sales prediction app!\nIt combines powerful models to provide an accurate forecast.\nThe dataset must have 2 columns date and sales."
     }
 )
 
 
 
-st.markdown("<div style='border: 2px solid #000; border-radius: 10px; padding: 20px; border-color: #FF4B4B; background-color: #FF4B4B';'><h1 style='text-align: center; color: white;'>📈 Sales Prophecy</h1></div><br><br><br>", unsafe_allow_html=True)
+st.markdown("<div style='border: 2px solid #000; border-radius: 10px; padding: 20px; border-color: #FF4B4B; background-color: #FF4B4B';'><h1 style='text-align: center; color: white;'>📈 Sales Prophesy</h1></div><br><br><br>", unsafe_allow_html=True)
 def streamlit_menu():
     selected = option_menu(
         menu_title=None,  # required
