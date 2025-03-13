@@ -1,6 +1,6 @@
 SALES PROPHESY
 
-PROECT DESCRIPTION:
+PROJECT DESCRIPTION:
 
 Predicting future sales accurately is crucial for businesses to optimize inventory management, plan marketing strategies, and enhance overall profitability. In this project, we propose a comprehensive analysis of predictive sales analytics for variable timeframes utilizing machine learning models, specifically XGBoost, Linear Regression and Random Forest. Through empirical evaluation and comparative analysis, we demonstrate the efficacy of XGBoost in forecasting sales for different timeframes, namely daily, weekly, and monthly. Our findings highlight the superior performance of XGBoost in terms of accuracy and robustness, making it an ideal choice for businesses seeking reliable sales predictions across diverse temporal scales.
 
